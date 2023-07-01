@@ -110,7 +110,6 @@ fun video(){
 }
 
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LoginView(
@@ -132,7 +131,6 @@ fun LoginView(
         }
     }
 
-
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier.fillMaxSize()
@@ -149,17 +147,10 @@ fun LoginView(
                 .imePadding()
                 .verticalScroll(state = scrollstate)
         ) {
-
-
-
             Image(
                 painter = painterResource(id = R.drawable.adobe), contentDescription = "Logo",
                 modifier = Modifier.size(125.dp)
             )
-
-
-
-
 
             OutlinedTextField(
                 value = email, onValueChange = {
