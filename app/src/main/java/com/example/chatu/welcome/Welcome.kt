@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import com.example.chatu.R
 
 @Composable
-private fun Gradient_Background(
+private fun gradient_Background(
     isVerticalGradient:Boolean,
     colors: List<Color>
 ): Brush {
@@ -56,7 +56,7 @@ fun welcomeView(register: () -> Unit, login: () -> Unit){
         modifier = Modifier
             .fillMaxWidth()
             .fillMaxHeight()
-            .background(Gradient_Background(isVerticalGradient = true, colors = gra))) {
+            .background(gradient_Background(isVerticalGradient = true, colors = gra))) {
         Spacer(modifier = Modifier.height(70.dp))
         Text(text = "Welcome",
             fontSize = 35.sp,
