@@ -12,9 +12,9 @@ import androidx.navigation.NavHost
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.chatu.View.chat_menu.HomeView
-import com.example.chatu.View.login.LoginView
-import com.example.chatu.View.register.RegisterView
+import com.example.chatu.view.chat_menu.HomeView
+import com.example.chatu.view.login.LoginView
+import com.example.chatu.view.register.RegisterView
 import com.example.chatu.nav.Action
 import com.example.chatu.nav.Destination.Home
 import com.example.chatu.nav.Destination.Login
