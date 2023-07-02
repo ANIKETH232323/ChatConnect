@@ -155,8 +155,6 @@ fun HomeView(
                     contentDescription = "Send Button"
                 )
             }
-
-
         }
     }
 }
