@@ -17,26 +17,6 @@ class HomeViewModel : ViewModel() {
         getMessages()
     }
 
-//    var isDialoge by mutableStateOf(false)
-//        private set
-//
-//    fun yesClick(back: () -> Unit){
-//        isDialoge = true
-//        FirebaseAuth.getInstance().signOut()
-//
-//
-//    }
-//    fun yesClick(){
-//        isDialoge = true
-//        FirebaseAuth.getInstance().signOut()
-//
-//
-//    }
-//
-//    fun noClick(){
-//        isDialoge = false
-//    }
-
     private val _message = MutableLiveData("")
     val message: LiveData<String> = _message
 
@@ -97,7 +77,7 @@ class HomeViewModel : ViewModel() {
     }
 
     /**
-     * Update the list after getting the details from firestore
+     * Update the list after getting the details from firestone
      */
     private fun updateMessages(list: MutableList<Map<String, Any>>) {
         _messages.value = list.asReversed()
