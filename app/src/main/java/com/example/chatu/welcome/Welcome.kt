@@ -1,3 +1,5 @@
+@file:Suppress("SameParameterValue")
+
 package com.example.chatu.welcome
 
 import androidx.compose.foundation.Image
@@ -81,7 +83,6 @@ fun welcomeView(register: () -> Unit, login: () -> Unit){
 
 
         Column(verticalArrangement = Arrangement.spacedBy(10.dp, alignment = Alignment.Top)) {
-            val context = LocalContext.current
             Button(onClick = register,
                 modifier = Modifier.width(320.dp)
             ) {
