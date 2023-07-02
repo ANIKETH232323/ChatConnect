@@ -20,7 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -33,7 +32,7 @@ private fun gradient_Background(
     isVerticalGradient:Boolean,
     colors: List<Color>
 ): Brush {
-    val end_off = if(isVerticalGradient){
+    val endlast = if(isVerticalGradient){
         Offset(0f, Float.POSITIVE_INFINITY)
     }
     else{
@@ -42,13 +41,13 @@ private fun gradient_Background(
     return Brush.linearGradient(
         colors = colors,
         start = Offset.Zero,
-        end = end_off
+        end = endlast
     )
 }
 
 
 @Composable
-fun welcomeView(register: () -> Unit, login: () -> Unit){
+fun WelcomeView(register: () -> Unit, login: () -> Unit){
     val gra = listOf(
         Color(0xFFDF6F56),
         Color(0xFFF2A02A)

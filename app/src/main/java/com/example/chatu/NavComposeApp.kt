@@ -14,7 +14,7 @@ import com.example.chatu.nav.Destination.Login
 import com.example.chatu.nav.Destination.Register
 import com.example.chatu.nav.Destination.Welcome
 import com.example.chatu.ui.theme.ChatUTheme
-import com.example.chatu.welcome.welcomeView
+import com.example.chatu.welcome.WelcomeView
 import com.google.firebase.auth.FirebaseAuth
 
 
@@ -38,7 +38,7 @@ fun NavComposeApp() {
                 Welcome
         ) {
             composable(Welcome) {
-                welcomeView(
+                WelcomeView(
                     register = actions.register,
                     login = actions.login
                 )
