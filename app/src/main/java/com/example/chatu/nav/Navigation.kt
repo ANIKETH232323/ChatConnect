@@ -40,8 +40,5 @@ class Action(navController: NavHostController) {
     }
     val login: () -> Unit = { navController.navigate(Login) }
     val register: () -> Unit = { navController.navigate(Register) }
-    val navigateBack: () -> Unit = { navController.popBackStack()
-//    {
-//        navController.popBackStack()
-    }
+    val navigateBack: () -> Unit = { navController.popBackStack()}
 }
