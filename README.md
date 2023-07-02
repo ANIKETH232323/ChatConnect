@@ -21,6 +21,4 @@
 <img src="https://github.com/ANIKETH232323/ChatConnect/assets/102458123/30adf6ff-c7e1-47fc-bd73-1ac108f75b37" width="200" height="450">
 
 ## Demo Video
-<video src="https://github.com/ANIKETH232323/ChatConnect/assets/102458123/f5bd3111-8031-408e-8a7b-355a517f51f0" width="200" height="450"></video>
-
-
+https://github.com/ANIKETH232323/ChatConnect/assets/102458123/f5bd3111-8031-408e-8a7b-355a517f51f0
