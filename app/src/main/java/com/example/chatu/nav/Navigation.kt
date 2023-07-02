@@ -4,7 +4,6 @@ import androidx.navigation.NavHostController
 import com.example.chatu.nav.Destination.Home
 import com.example.chatu.nav.Destination.Login
 import com.example.chatu.nav.Destination.Register
-import com.example.chatu.nav.Destination.Welcome
 
 /**
  * A set of destination used in the whole application
