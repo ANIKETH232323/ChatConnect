@@ -93,10 +93,6 @@ fun WelcomeView(register: () -> Unit, login: () -> Unit){
             ) {
                 Text(text = "Login", modifier = Modifier.padding(vertical = 8.dp))
             }
-
         }
-
-
     }
-
 }
