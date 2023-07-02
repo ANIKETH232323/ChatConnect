@@ -100,12 +100,3 @@ fun WelcomeView(register: () -> Unit, login: () -> Unit){
     }
 
 }
-
-//@Preview(showBackground = true, showSystemUi = true)
-//@Composable
-//fun GreetingPreview2() {
-//    com.example.chatu.ui.theme.ChatUTheme {
-//        Heloo()
-//    }
-//
-//}
