@@ -21,7 +21,7 @@ All assignments(1,2,3) are added in Assignment Folder.
 
 Report is added in the File section
 
-**Link -** https://github.com/ANIKETH232323/ChatConnect/tree/master/Project%20Report
+**Link -** https://github.com/ANIKETH232323/ChatConnect/blob/master/Project%20Report/ChatConnect-VIT-BHOPAL-ANIKETH%20PRATIHAR%20-20BCE10176.pdf
 
 # Screen Shots
 
